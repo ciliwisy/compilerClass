@@ -1,0 +1,12 @@
+program p
+type 
+    t = integer;
+var 
+    v1: t;    
+    v2: char;
+begin 
+    read(v1);    
+    v1 := v1 * 10;  
+    v2 := 'a';   
+    write(v1);   
+end.

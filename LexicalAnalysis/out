@@ -1,0 +1,40 @@
+PROGRAM
+ID, p
+TYPE
+ID, t
+=
+INTEGER
+;
+VAR
+ID, v1
+:
+ID, t
+;
+ID, v2
+:
+CHAR
+;
+BEGIN
+READ
+(
+ID, v1
+)
+;
+ID, v1
+:=
+ID, v1
+*
+NUM, 10
+;
+ID, v2
+:=
+CHAR, 'a'
+;
+WRITE
+(
+ID, v1
+)
+;
+END
+.
+UNKNOWN TOKEN: 0
